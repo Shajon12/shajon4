@@ -1,0 +1,159 @@
+@media screen and (min-width: 768.01px) and (max-width: 992px) {
+  .header-area {
+    padding: 10px 30px !important;
+  }
+  .menu-area ul {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+    background-color: #000000a8;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .menu-area ul li {
+    float: none !important;
+    margin: auto !important;
+    width: 120px !important;
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+  .menu-area ul li::before {
+    transition: 0.4s;
+  }
+  .header-area.sticky .menu-area ul li a {
+    color: rgb(43, 255, 220) !important;
+  }
+
+  .humbager {
+    display: block !important;
+  }
+  .fa-bars {
+    font-size: 30px;
+    right: 4%;
+    padding: 4px 6px;
+    cursor: pointer;
+  }
+  .humbager {
+    z-index: 20;
+    position: relative;
+    right: -30%;
+  }
+
+  .slidertext h2 {
+    font-size: 30px !important;
+  }
+  .slidertext h3 {
+    font-size: 30px !important;
+    margin: 0 !important;
+  }
+
+  .about-text h2 {
+    font-size: 22px !important;
+  }
+
+  .about-text p {
+    font-size: 10px !important;
+  }
+
+  .about-img {
+    overflow: hidden;
+    width: 380px !important;
+    float: left !important;
+    margin: 0px 0px 0px -100px !important;
+    background: white !important;
+  }
+
+  .service-box {
+    padding: 15px !important;
+    margin: 10px 5px !important;
+  }
+
+  .service-box h2 {
+    font-size: 16px !important;
+  }
+
+  .service-box span {
+    font-size: 10px !important;
+    text-align: -webkit-center;
+  }
+
+  .service-title {
+    padding: 0 !important;
+  }
+
+  section.about-us {
+    margin-bottom: 60px !important;
+  }
+
+  .counter-box {
+    padding: 15px !important;
+    background: black;
+    border: 2px solid white;
+    width: 150px !important;
+  }
+
+  .counter-box h2 {
+    font-size: 12px !important;
+  }
+
+  .image-area {
+    display: none;
+  }
+
+  .skills-section {
+    margin: 0;
+  }
+
+  .our-gallery {
+    margin: 50px 0px !important;
+  }
+
+  .teamBox:hover {
+    box-shadow: none !important;
+  }
+
+  .teamBox {
+    max-width: 170px !important;
+    width: 280px !important;
+    margin: 0px 18px !important;
+  }
+
+  .team-name span {
+    font-size: 10px !important;
+  }
+
+  .team-name h3 {
+    font-size: 14px !important;
+  }
+
+  section.our-team {
+    overflow: hidden !important;
+    padding: 0px 50px !important;
+  }
+
+  .teamBox {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0px 6px !important;
+  }
+
+  .team-socail-icon {
+    top: 87% !important;
+  }
+
+  .team-socail-icon ul li {
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    margin-right: 25px !important;
+  }
+
+  .lb-data .lb-close {
+    right: 20% !important;
+    top: 30% !important;
+  }
+}

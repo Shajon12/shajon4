@@ -1,0 +1,31 @@
+<lottie-player
+      src="https://assets9.lottiefiles.com/packages/lf20_kujqck0u.json"
+      background="#FFFFFF"
+      speed="1"
+      style="width: 300px; height: 300px"
+      loop
+      autoplay
+    ></lottie-player
+    ><lottie-player
+      src="https://assets8.lottiefiles.com/packages/lf20_lnc7r5pw.json"
+      background="transparent"
+      speed="1"
+      style="width: 300px; height: 300px"
+      loop
+      autoplay
+    ></lottie-player>
+
+
+
+    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_138qcknv.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+
+
+
+
+
+    <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_nss1rfwu.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+
+
+
+
+    <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_nnctxuql.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>

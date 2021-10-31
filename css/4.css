@@ -1,0 +1,13 @@
+@media screen and (min-width:1000px) {
+    .about-img {
+    overflow: hidden;
+    width: 380px!important;
+    float: left!important;
+    margin: 0px 0px 0px -100px!important;
+    background: white!important;
+}
+.mainslider {
+    padding: 0px 50px!important;
+}
+
+}

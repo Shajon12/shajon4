@@ -1,0 +1,207 @@
+@media screen and (max-width: 480px) {
+  .header-area {
+    padding: 10px 30px !important;
+  }
+  .menu-area ul {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+    background-color: seagreen;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .menu-area ul li {
+    float: none !important;
+    margin: auto !important;
+    width: 120px !important;
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+  .menu-area ul li::before {
+    transition: 0.4s;
+  }
+  .header-area.sticky .menu-area ul li a {
+    color: rgb(43, 255, 220) !important;
+  }
+
+  .humbager {
+    display: block !important;
+  }
+  .fa-bars {
+    font-size: 30px;
+    right: 4%;
+    padding: 4px 6px;
+    cursor: pointer;
+  }
+  .humbager {
+    z-index: 20;
+    position: relative;
+    right: -30%;
+  }
+
+  .contact-right-side {
+    display: none;
+  }
+  .slidertext,
+  .slider-img {
+    padding: 30px 10px !important;
+  }
+  .slider-img {
+    display: none;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .about-text {
+    padding: 0 !important;
+  }
+
+  .mainslider {
+    height: 480px;
+  }
+
+  .slidertext h2 {
+    font-size: 28px!important;
+  }
+  .slidertext h3 {
+    font-size: 26px !important;
+    margin: 0 !important;
+  }
+  .slidertext span {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .slidertext .mybtn {
+    margin: 15px 0px;
+    padding: 6px 30px;
+  }
+
+  .service-title {
+    padding: 0;
+    margin: 70px 0px 0px 0px;
+  }
+
+  .service-box span {
+    font-size: 12px !important;
+  }
+
+  .counter-title h2 {
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    font-weight: 700;
+  }
+
+  .counter-title span {
+    font-size: 12px !important;
+  }
+
+  .counter-box {
+    margin-bottom: 30px !important;
+  }
+
+  .teamBox {
+    margin-bottom: 40px !important;
+  }
+
+  input.fnamefield {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 10px 0px !important;
+  }
+
+  input.lnamefield {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 10px 0px !important;
+  }
+
+  input.emailfield {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 10px 0px !important;
+  }
+
+  textarea.msgfield {
+    width: 100% !important;
+  }
+
+  .fname label {
+    color: #3195c2 !important;
+    font-weight: 500 !important;
+  }
+
+  .lastName label {
+    color: #3195c2 !important;
+    font-weight: 500 !important;
+  }
+
+  .email label {
+    color: #3195c2 !important;
+    font-weight: 500 !important;
+  }
+  .messege label {
+    color: #3195c2 !important;
+    font-weight: 500 !important;
+  }
+  .footer-top {
+    padding: 25px;
+  }
+
+  .footer-end-side {
+    width: 280px;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .footer-center-side {
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .footer-left-side {
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  input.serinput {
+    width: 100%;
+  }
+  .formbtn button.mybtn {
+    float: left;
+    width: 100px !important;
+    margin: 0 !important;
+  }
+
+  .formbtn {
+    margin-bottom: 50px !important;
+  }
+  .messege {
+    display: block !important;
+    padding: 0 !important;
+  }
+
+  textarea.msgfield {
+    padding: 0 !important;
+    margin: 10px 0px !important;
+  }
+  .slidertext span {
+    padding: 0 !important;
+  }
+
+  .image-area {
+    display: none!important;
+  }
+}

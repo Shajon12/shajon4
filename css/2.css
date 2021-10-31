@@ -1,0 +1,170 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-area {
+    padding: 10px 30px !important;
+  }
+  .menu-area ul {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+    background-color: seagreen;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .menu-area ul li {
+    float: none !important;
+    margin: auto !important;
+    width: 120px !important;
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+  .menu-area ul li::before {
+    transition: 0.4s;
+  }
+  .header-area.sticky .menu-area ul li a {
+    color: rgb(43, 255, 220) !important;
+  }
+
+  .humbager {
+    display: block !important;
+  }
+  .fa-bars {
+    font-size: 30px;
+    right: 4%;
+    padding: 4px 6px;
+    cursor: pointer;
+  }
+  .humbager {
+    z-index: 20;
+    position: relative;
+    right: -30%;
+  }
+  .slider-img {
+    display: none;
+  }
+  /* 
+.slidertext {
+    max-width: 350px!important;
+    width: 300px!important;
+} */
+
+  .slider-img {
+    max-width: 350px !important;
+    width: 400px !important;
+  }
+  .slidertext h2 {
+    font-size: 30px !important;
+  }
+  .slidertext h3 {
+    font-size: 26px !important;
+    margin: 0 !important;
+  }
+  .slidertext span {
+    padding: 0 !important;
+  }
+
+  .mainslider {
+    height: 520px !important;
+  }
+
+  .about-img {
+    display: none;
+  }
+  .about-title h3 {
+    font-size: 40px !important;
+  }
+
+  .about-text h2 {
+    font-size: 20px !important;
+  }
+
+  .about-text p {
+    margin-bottom: 35px !important;
+  }
+
+  .about-text {
+    padding: 0 !important;
+  }
+  .about-img {
+    background: #2e8b570a !important;
+    cursor: pointer !important;
+    box-shadow: 0px 0px 20px 0px #efefef !important;
+  }
+  .service-box span {
+    font-size: 15px !important;
+  }
+
+  .counter-box {
+    margin-bottom: 30px !important;
+  }
+
+  .teamBox {
+    margin-bottom: 30px !important;
+  }
+
+  .contact-right-side {
+    display: none;
+  }
+
+  input.fnamefield {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 10px 0px !important;
+  }
+
+  input.lnamefield {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 10px 0px !important;
+  }
+
+  input.emailfield {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 10px 0px !important;
+  }
+
+  textarea.msgfield {
+    width: 100% !important;
+  }
+
+  .fname label {
+    color: #727272;
+    font-weight: 500;
+  }
+
+  .lastName label {
+    color: #727272;
+    font-weight: 500;
+  }
+
+  .email label {
+    color: #727272;
+    font-weight: 500;
+  }
+  input.serinput {
+    width: 100%;
+  }
+  .messege {
+    display: block !important;
+    padding: 0 !important;
+  }
+
+  textarea.msgfield {
+    padding: 0 !important;
+    margin: 10px 0px !important;
+  }
+  .slidertext span {
+    padding: 0 !important;
+  }
+  .formbtn button.mybtn {
+    margin: 0 !important;
+  }
+  .lb-data .lb-close {
+    bottom: 57% !important;
+    right: 7% !important;
+  }
+}
